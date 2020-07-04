@@ -208,7 +208,7 @@ class ModelImageVisualizer:
 class VideoColorizer:
     def __init__(self, vis: ModelImageVisualizer):
         self.vis = vis
-        workfolder = Path('./video')
+        workfolder = Path('../drive/My Drive/clip')
         self.source_folder = workfolder / "source"
         self.bwframes_root = workfolder / "bwframes"
         self.audio_root = workfolder / "audio"
